@@ -1,0 +1,582 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.section1{
+    height: 70vh;
+    width: 100%;
+    background-color:black;
+}
+.section1 img{
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+.port h1{
+    font-size: 2em;
+    margin-left: 20px;
+    position: relative;
+    animation-name: port;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-timing-function: 1;
+    animation-fill-mode: forwards;
+    color: #B8621B;
+    
+    
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.man img{
+    margin-top: 120px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 2px gold;
+    position: relative ;
+    animation-name: first_img;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+
+}
+.intro h3{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+.intro h1{
+    margin-bottom: 20px;
+    font-size: 5em;
+    position: relative;
+    animation-name: name;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    color: #B8621B;
+}
+.intro h2{
+    font-size: 2em;
+    color: aliceblue;
+}
+
+@keyframes first_img {
+    from{
+        left: 0px;
+    }
+    to{
+        left: 120px;
+    }
+}
+@keyframes port{
+    from{
+        top: 120px;
+    }
+    to{
+        top: 0px;
+    }
+}
+@keyframes name{
+    from{
+        left:0px
+    }
+    to{
+        left: 120px;
+    }
+}
+
+.section2{
+    background-color: #262A56;
+    min-height: 30vh;
+    width: 100%;
+}
+.all2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left2{
+    position: relative;
+    animation-name: left;
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+}
+.right2 h1{
+    position: relative;
+    animation-name: right;
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    color: #E3CCAE;
+    /* animation-timing-function: ease-out; */
+}
+.left2 h3{
+    margin-bottom: 30px;
+    color: #E3CCAE;
+}
+.left2 h1{
+    font-size: 2em;
+    color: #E3CCAE;
+}
+.right2 h1{
+    font-stretch:ultra-expanded;
+    font-family: cursive;
+
+}
+@keyframes left{
+    from{
+        top: 0px;
+    }
+    to{
+        top: 40px;
+    }
+}
+@keyframes right{
+    from{
+        top: 0px;
+    }
+    to{
+        margin-top: 60px;
+        top: 20px;
+    }
+}
+.section3{
+    background-color: #262A56;
+    min-height: 20vh;
+    width: 100%;
+}
+.all3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left3 img{
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    box-shadow: 3px 2px 3px ;
+}
+.left3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right3{
+    margin-top: 30px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section4{
+    min-height: 20vh;
+    width: 100%;
+    background-color: #262A56;
+}
+.all4
+{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FF0303;
+}
+.all4 h1{
+    font-size: 3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.section5{
+    min-height: 70vh;
+    width: 100%;
+    background: linear-gradient(
+    to bottom,
+    #262A56 50%,
+    #262A56 0%,
+    black 50%,
+    black 100%
+  );
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.form1{
+  
+    
+    background-color: rgba(48, 89, 237, 0.6);
+    padding: 150px;
+    padding-bottom: 25px;
+    width: 0%;
+    transform: rotate(-50deg);
+    position: relative;
+    animation-name: rot;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: aliceblue;
+    
+}
+.form1 label{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-bottom: 50px;
+    
+
+}
+.form .form1 img{
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-shadow: 5px 5px 2px black;
+    animation-name: img1 ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    border-radius: 60px;
+    width: 300px;
+
+    
+    
+
+}
+@keyframes img1{
+    from{
+        right:0px;
+    }
+    to{
+        right:70px
+    }
+}
+
+.form2{
+  
+    
+    background-color: rgba(48, 89, 237, 0.6);
+    padding: 150px;
+    padding-bottom: 25px;
+    width: 0%;
+    transform: rotate(-50deg);
+    position: relative;
+    animation-name: rot;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: aliceblue;
+    
+}
+.form2 label{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    
+
+}
+.form .form2 img{
+    max-width: 150px;
+    
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 2px black;
+    position: relative;
+    animation-name: img2 ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    border-radius: 60px;
+    width: 300px;
+
+    
+    
+
+}
+@keyframes img2{
+    from{
+        right:0px;
+    }
+    to{
+        right:70px
+    }
+}
+.form3{
+  
+    
+    background-color: rgba(48, 89, 237, 0.6);
+    padding: 150px;
+    padding-bottom: 25px;
+    width: 0%;
+    transform: rotate(-50deg);
+    position: relative;
+    animation-name: rot;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: aliceblue;
+    
+}
+.form3 label{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 90px;
+    
+
+}
+.form .form3 img{
+    max-width: 150px;
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    animation-name: img1 ;
+    animation-duration: 15s;
+    box-shadow: 5px 5px 2px black;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    border-radius: 60px;
+    width: 300px;
+
+    
+    
+
+}
+@keyframes img3{
+    from{
+        right:0px;
+    }
+    to{
+        right:70px
+    }
+}
+
+
+@keyframes rot{
+    from{
+        transform: rotate(-50deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+.section6{
+    min-height: 100vh;
+    background-color: black;
+}
+.all6 .glimse_img img{
+    max-width: 450px;
+    max-height: 450px;
+    border-radius: 80px;
+    box-shadow: 5px 5px 2px black;
+}
+.allimg6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+    
+}
+
+.img2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.glimpse h1{
+
+display: flex;
+justify-content: center;
+font-size: 3rem;
+color: #865DFF;
+}
+
+.img11{
+    position: relative;
+    margin-right: 150px;
+    animation-name: img11;
+    animation-direction: alternate-reverse;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    
+}
+.img12{
+    
+    position: relative;
+    animation-name: img12;
+    animation-duration: 20s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.img_21{
+    margin-top: 200px;
+    position: relative;
+    animation-name: img21;
+    animation-duration: 20s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode:forward;
+}
+.img_22{
+    
+    position: relative;
+    animation-name: img22;
+    /* animation-direction: normal; */
+    animation-direction: alternate-reverse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.img_22 img{
+    border-radius: 500px;
+    min-width: 25px;
+    min-height: 25px;
+}
+@keyframes img11{
+    from{
+        left:0px;
+    }
+    to{
+        left:200px
+    }
+}
+@keyframes img12{
+    from{
+        left:0px;
+    }
+    to{
+        left:420px
+    }
+}
+@keyframes img21{
+    from{
+        top:0px
+    }
+    to{
+        top: -200px;
+    }
+}
+@keyframes img22{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(30deg);
+    }
+}
+.section7{
+    min-height: 100vh;
+    background-color: #262A56;
+
+}
+.all7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.img7 img{
+    margin-top: 30px;
+    max-width: 500px;
+    border-radius: 100px;
+    box-shadow: 2px 2px yellow;
+}
+.matter7 h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: #DAC0A3;
+}
+.matter7 h3{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: aliceblue;
+}
+.matter7 h2{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFD2D7;
+}
+.section8{
+    min-height: 100vh;
+    background-color: black;
+}
+.all8{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first8 img{
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    box-shadow: 3px 2px 3px ;
+    min-width: 90px;
+    min-height: 90px;
+}
+.second8 img{
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 100px;
+    box-shadow: 2px 2px skyblue;
+    
+}
+.first8 h1{
+    margin-top: 60px;
+    font-weight: 100px;
+    font-size: 30px;
+    margin-bottom: 90px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.first8 h2{
+    font-size: 5rem;
+    margin-bottom: 30px;
+    color: #0F6292;
+}
